@@ -74,30 +74,30 @@ div.logos {
   grid-auto-rows: 100px;
   grid-auto-flow: row dense;
 }
-div.logos > span {
+div.logos > a {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
 }
-div.logos > span > img {
+div.logos > a > img {
   display: block;
   height: 64px;
   transition: 0.2s filter;
 }
-div.logos > span > img:hover {
+div.logos > a > img:hover {
   filter: brightness(150%);
 }
 @media (max-width: 769px) {
   div.logos {
     grid-template-columns: repeat(3, 1fr);
   }
-  div.logos > span {
+  div.logos > a {
     justify-content: flex-start;
   }
 }
 @media (max-width: 600px) {
-  div.logos > span > img {
+  div.logos > a > img {
     height: 64px;
   }
 }
@@ -105,7 +105,7 @@ div.logos > span > img:hover {
   div.logos {
     grid-template-columns: repeat(1, 1fr);
   }
-  div.logos > span {
+  div.logos > a {
     width: 100%;
     justify-content: center;
   }
