@@ -1,0 +1,7 @@
+{
+  "name": "comethacks-site",
+  "short_name": "comethacks-site",
+  "description": "CometHacks",
+  "start_url": "/",
+  "display": "standalone"
+}
