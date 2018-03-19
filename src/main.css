@@ -90,11 +90,6 @@ div.logos > a > img:hover {
     justify-content: flex-start;
   }
 }
-@media (max-width: 600px) {
-  div.logos > a > img {
-    height: 64px;
-  }
-}
 @media (max-width: 460px) {
   div.logos {
     grid-template-columns: repeat(1, 1fr);
@@ -103,6 +98,10 @@ div.logos > a > img:hover {
     width: 100%;
     justify-content: center;
   }
+}
+
+div.logos.sponsor > a > img {
+  height: 96px;
 }
 
 h1 {
